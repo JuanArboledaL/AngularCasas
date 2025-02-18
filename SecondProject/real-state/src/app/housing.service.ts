@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HousingLocation } from './housinglocation';
 
+
 @Injectable({
   providedIn: 'root'
 })
@@ -21,4 +22,9 @@ export class HousingService {
   submitApplication(firstName: string, lastName: string, email: string) {
     console.log(firstName, lastName, email);
   }
+}
+
+export class FormularioComponent{
+
+  url= 'http://localhost:3000/formulario';
 }
