@@ -17,6 +17,9 @@ import { RouterLink, RouterOutlet } from '@angular/router';
           <img class="brand-logo" src="/assets/logo.svg" alt="logo" aria-hidden="true">
         </header>
       </a>
+      <a id="formulario" [routerLink]="['/formulario']">
+          Inicio Sesion
+        </a>
       <section class="content">
         <router-outlet></router-outlet>
       </section>
